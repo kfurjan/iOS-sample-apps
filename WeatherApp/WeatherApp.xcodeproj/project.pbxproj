@@ -17,7 +17,7 @@
 		0827CF272525DEAE00D55CF0 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0827CF262525DEAE00D55CF0 /* WeatherViewModel.swift */; };
 		0827CF2B2525E3F400D55CF0 /* WeatherRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0827CF2A2525E3F400D55CF0 /* WeatherRowView.swift */; };
 		0827CF2D2525E98900D55CF0 /* WeatherDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0827CF2C2525E98900D55CF0 /* WeatherDetailView.swift */; };
-		0827CF302525EA5F00D55CF0 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 0827CF2F2525EA5F00D55CF0 /* SwiftUICharts */; };
+		A1996BEE2573A5BC00482028 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = A1996BED2573A5BC00482028 /* SwiftUICharts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,7 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0827CF302525EA5F00D55CF0 /* SwiftUICharts in Frameworks */,
+				A1996BEE2573A5BC00482028 /* SwiftUICharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +138,7 @@
 			);
 			name = WeatherApp;
 			packageProductDependencies = (
-				0827CF2F2525EA5F00D55CF0 /* SwiftUICharts */,
+				A1996BED2573A5BC00482028 /* SwiftUICharts */,
 			);
 			productName = WeatherApp;
 			productReference = 0827CF0B2525DD7700D55CF0 /* WeatherApp.app */;
@@ -151,7 +151,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1140;
-				LastUpgradeCheck = 1140;
+				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = iTrainer;
 				TargetAttributes = {
 					0827CF0A2525DD7700D55CF0 = {
@@ -169,7 +169,7 @@
 			);
 			mainGroup = 0827CF022525DD7700D55CF0;
 			packageReferences = (
-				0827CF2E2525EA5F00D55CF0 /* XCRemoteSwiftPackageReference "ChartView" */,
+				A1996BEC2573A5BC00482028 /* XCRemoteSwiftPackageReference "ChartView" */,
 			);
 			productRefGroup = 0827CF0C2525DD7700D55CF0 /* Products */;
 			projectDirPath = "";
@@ -248,6 +248,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -308,6 +309,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -342,6 +344,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"WeatherApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 29R48BN56K;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = WeatherApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -361,6 +364,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"WeatherApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 29R48BN56K;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = WeatherApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -398,20 +402,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		0827CF2E2525EA5F00D55CF0 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+		A1996BEC2573A5BC00482028 /* XCRemoteSwiftPackageReference "ChartView" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/AppPear/ChartView";
 			requirement = {
-				kind = upToNextMajorVersion;
+				kind = upToNextMinorVersion;
 				minimumVersion = 1.5.4;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		0827CF2F2525EA5F00D55CF0 /* SwiftUICharts */ = {
+		A1996BED2573A5BC00482028 /* SwiftUICharts */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 0827CF2E2525EA5F00D55CF0 /* XCRemoteSwiftPackageReference "ChartView" */;
+			package = A1996BEC2573A5BC00482028 /* XCRemoteSwiftPackageReference "ChartView" */;
 			productName = SwiftUICharts;
 		};
 /* End XCSwiftPackageProductDependency section */
